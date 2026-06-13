@@ -118,3 +118,20 @@ The ul element represents a list of items, where the order of the items is not i
   The dl element represents an association list consisting of zero or more name-value groups (a description list).
   - dt The dt element represents the term, or name, part of a term-description group in a description list (dl element).
   - dd The dd element represents the description, definition, or value, part of a term-description group in a description list (dl element). This label also works as a metadato, a value thas is invisible for the user but that is a part of our page. When someone looks for a term that is in our dt, the search engine will look into the dd element to find the definition of that term and show it in the search results.
+
+## Tables
+
+They are visual elements that allow us to create elements with a bigger dimension. They need to be in a semantic structure, in this way the borwser know that the information in them can be used in statistcs as a trusted data for study or anything needed. They are used for financial data, sports results, schedules, etc.
+
+**Elements**
+
+- table Represents data with more than one dimension, in the form of a table.
+  - tr The tr element represents a row of cells in a table.
+  - th Represents a header cell in a table.
+  - td Represents a data cell in a table.
+  - caption Represents the title of the table that is its parent, if it has a parent and that is a table element.
+  - thead Represents the block of rows that consist of the column labels (headers) for the parent table element, if the thead element has a parent and it is a table.
+  - tbody Represents a block of rows that consist of a body of data for the parent table element, if the tbody element has a parent and it is a table.
+  - tfoot Represents the block of rows that consist of the column summaries (footers) for the parent table element, if the tfoot element has a parent and it is a table.
+    **Attributes**
+- scope Specifies whether the header cell is a column header (col), a row header (row), or neither (colgroup), and whether it applies to a single column (col), a single row (row), or to a group of columns and/or rows (colgroup/rowgroup), the default is colgroup.
