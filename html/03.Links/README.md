@@ -1,6 +1,6 @@
-## Enlaces
+# Links
 
-### a Element
+## a Element
 
 If the a element has an href attribute, then it represents a hyperlink (a hypertext anchor) labeled by its contents.
 
