@@ -135,3 +135,15 @@ They are visual elements that allow us to create elements with a bigger dimensio
   - tfoot Represents the block of rows that consist of the column summaries (footers) for the parent table element, if the tfoot element has a parent and it is a table.
     **Attributes**
 - scope Specifies whether the header cell is a column header (col), a row header (row), or neither (colgroup), and whether it applies to a single column (col), a single row (row), or to a group of columns and/or rows (colgroup/rowgroup), the default is colgroup.
+
+## HTML Block
+
+Currently the trend is to use Semantic HTML instead of DIVs. DIVs are used only when needed.
+
+- div It is an element that is often used as a container for other HTML elements
+- span It is an inline container element that is used to mark a part of the text without introducing a new block
+  **Web Pilars**
+- SEO
+- Accessibility
+- Code organization
+  For this there are special HTML labels, those are semantic labels.
