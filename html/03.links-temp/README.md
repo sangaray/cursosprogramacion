@@ -26,7 +26,7 @@ If the a element has an href attribute, then it represents a hyperlink (a hypert
 
 - **Forbidden:** Links that only say "Click here" or "Read more".
 - **Correct:** The text must describe the destination.
-- **Verify that the links work.**
+- **Verify that the links work.** This is important to not let dead links go unnoticed.
 
 **More attributes of the a element:**
 
