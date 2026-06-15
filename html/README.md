@@ -4,9 +4,9 @@ In this repository you will find my code practice for the HTML course of Yacklyo
 
 ## Chapters
 
-1. [Headings](./html/01.Headings/01-headings.html)
-2. [Paragraphs](./html/02.Paragraphs/02-paragraphs.html)
-3. [Lists](./html/03.Lists/03-lists.html)
-4. [Tables](./html/04.Tables/04-tables.html)
-5. [Links](./html/05.Links/05-links.html)
-6. [HTML Blocks](./html/06.HTML%20Blocks/06-html%20blocks.html)
+1. [Headings](./html/01.headings/)
+2. [Text Labels](./html/02.textlabels/)
+3. [Links](./html/03.links/)
+4. [Lists](./html/04.list/)
+5. [Tables](./html/05.tables/)
+6. [HTML Blocks](./html/06.htmlblocks/)
