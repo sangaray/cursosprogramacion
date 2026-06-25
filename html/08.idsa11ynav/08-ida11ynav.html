@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ID, A11y, Nav</title>
+</head>
+<h1>ID, Accessibility, Navigation</h1>
+
+<body>
+  <style>
+    #titulo-principal {
+      color: blue;
+      font-size: 64px;
+    }
+
+    p {
+      padding: 20px;
+    }
+  </style>
+
+  <a href="#contactos">Ir a contactos</a>
+
+  <h1 id="titulo-principal">Bienvenida</h1>
+  <p id="descripcion">Este es un ejemplo de uso de ID con HTML5 MODERNO</p>
+
+  <button id="mi-boton">Haz click</button>
+
+  <section>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, voluptatum qui porro vel rem repellendus
+      iste mollitia hic voluptatem quasi in adipisci earum perferendis illo accusamus culpa a veniam eaque!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsa repudiandae qui incidunt illo aut.
+      Blanditiis eos optio odio minima aliquid facere sit, voluptas, a quas natus veniam dolore, nostrum qui asperiores
+      neque animi quae quo similique? Quod suscipit possimus magni dolorem animi, sunt omnis, tenetur inventore
+      corporis, sit dicta excepturi? Ut voluptatibus eaque, minima voluptatem quisquam atque nobis consequatur
+      laboriosam praesentium magnam! Eveniet tenetur quasi, blanditiis ipsum voluptatem odit animi laudantium eius alias
+      iusto minus, rem deserunt. Consequuntur, nobis autem exercitationem eius vero dolores harum incidunt voluptatum
+      recusandae, facere quasi sequi aperiam voluptatibus similique perspiciatis. Ullam provident officiis sed, sunt
+      voluptatum autem vero deserunt? Ut officiis, soluta omnis magnam alias quidem iste sit reiciendis animi neque!
+      Dolorem consectetur corporis quibusdam vero earum repudiandae numquam expedita recusandae quidem? Deleniti labore
+      culpa maxime ex rerum praesentium tenetur aut dolor ab rem nemo, harum pariatur velit sint amet. Ab consequuntur
+      suscipit, doloribus nulla, reprehenderit ipsa placeat voluptatum laborum nesciunt facere deserunt dolorum? Ut quae
+      debitis molestiae, aperiam repellendus sequi veritatis obcaecati quia voluptatem officia error ab aliquam
+      temporibus, recusandae sed, laudantium excepturi dolore vel. Qui voluptatem rem, cupiditate facilis totam
+      obcaecati doloremque iste dolore reprehenderit? Ducimus voluptas, debitis enim totam id eveniet?</p>
+  </section>
+  <section id="contactos">
+    <h2>Contactos</h2>
+  </section>
+
+  <script>
+    document.getElementById("mi-boton").addEventListener("click", function () {
+      alert("Botón presionado. Gracias");
+    });
+  </script>
+</body>
+
+</html>
