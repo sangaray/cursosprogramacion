@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Optimization</title>
+</head>
+
+<body>
+  <img src="./img/paisaje.jpeg" alt="Paisaje sobre la naturaleza" width="400" height="200" loading="lazy"
+    decoding="async">
+
+  <img src="./img/Programador.jpg" alt="Programando código"
+    srcset="./img/Programador.jpg 400w, ./img/Programador.jpg 1000w, ./img/Programador.jpg 2000w"
+    sizes="(max-width: 500px) 400px, 800px">
+
+  <picture>
+    <source srcset="./img/felinos/gato1.webp" type="image/webp">
+    <source srcset="./img/felinos/gato1.jpg" type="image/jpg">
+    <img src="./img/felinos/gato1.jpg" alt="Gato en la naturaleza viendo a lo lejos">
+  </picture>
+
+  <img src="./gatoalatardecer.webp" alt="Pareja de gatos al atardecer" wigth="800" height="600">
+  <figcaption>
+    figura 1: ejemplo de estructura semántica en HTML5 con referencia a las imágenes
+  </figcaption>
+</body>
+
+</html>
