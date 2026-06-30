@@ -55,3 +55,21 @@ Means identify an elment in a detailed way
 
     **Values**
     - `UTF-8` = Unicode Transformation Format 8-bit character set. Allows any character from any language to be displayed. It allows to identify any character as an universal character.
+
+  - `name` = Define the name of the metadata. It is used to identify the metadata.
+
+    **Values**
+    - `viewport` = Define the viewport of the page. It is used to define the size of the page regarding de screen of the device where it is displayed.
+
+  - `content` = Define the content of the metadata. It is used to define the value of the metadata.
+
+    **Values**
+    - `width=device-width` = Define the width of the viewport as the width of the device.
+    - `initial-scale=1.0` = Define the initial scale of the viewport as 1.0 or the zoom level of the page.
+
+  - `http-equiv` = Define the HTTP header of the metadata. It is used to define the HTTP header of the metadata regading the compatibility of the page with different browsers
+
+    **Values**
+    - `X-UA-Compatible` = Define the compatibility of the page with different browsers.
+
+  - `<title>` = Define the title of the document. It is displayed on te title bar or the tab in the browser.
