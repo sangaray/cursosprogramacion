@@ -28,3 +28,8 @@ Actually it is not a good practice to use inline CSS. It is better to use extern
   - `type` = The type attribute specifies the media type of the linked resource.
     **Values**
     - `text/css` = The media type is text/css.
+  - `background` = The background attribute specifies a background image or color for the element.
+  - `color` = The color attribute specifies the color of the text.
+  - `font-family` = The font-family attribute specifies the font family for the text.
+  - `padding` = The padding attribute specifies the space between the border and the content of an element.
+  - `text-align` = The text-align attribute specifies the horizontal alignment of the text inside an element.
