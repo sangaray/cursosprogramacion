@@ -1,21 +1,53 @@
-* {
+/* * {
+  background: beige;
+} */
+
+body {
   background: beige;
 }
 
-h1 {
-  font-family: monospace;
-  font-size: 80px;
-}
-
-h2 {
+/* ID */
+#titulo {
   text-align: center;
-  font-size: 35px;
-  color: brown;
+  background: red;
+  color: aliceblue;
 }
 
-p {
-  background: gold;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 35px;
-  text-align: justify;
+#subtitulo {
+  text-align: center;
+  background: red;
+  color: aliceblue;
+}
+
+#parrafo {
+  font-size: 22px;
+  background: blueviolet;
+  color: white;
+}
+
+/* Clases */
+.subtitulo {
+  text-align: center;
+  background: orange;
+  color: bisque;
+}
+
+.parrafo {
+  font-size: 23px;
+  background: forestgreen;
+  color: antiquewhite;
+}
+
+.titulo {
+  text-align: center;
+  background: red;
+  color: white;
+  font-size: 32px;
+}
+
+/* Selectores Combinados */
+.clase-titulo,
+.clase-parrafo {
+  color: azure;
+  background: orange;
 }
