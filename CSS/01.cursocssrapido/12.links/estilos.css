@@ -1,0 +1,23 @@
+body {
+  background: beige;
+}
+
+a {
+  font-size: 55px;
+  text-decoration: none;
+  background-color: blue;
+  padding: 20px;
+}
+
+a:link {
+  color: rgb(202, 243, 202);
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  background-color: yellow;
+  color: black;
+}

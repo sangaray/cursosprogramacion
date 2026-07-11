@@ -1,0 +1,45 @@
+body {
+  background: beige;
+}
+
+.tipo-bloque {
+  background: red;
+  color: white;
+  font-size: 35px;
+  width: 800px;
+  padding: 35px;
+  display: inline-block;
+}
+
+.tipo-linea {
+  background: green;
+  color: white;
+  font-size: 60px;
+  padding: 30px;
+  display: inline;
+}
+
+a {
+  background: violet;
+  color: bl;
+  font-size: 60px;
+  padding: 30px;
+}
+
+.uno {
+  background: blue;
+  color: white;
+  font-size: 40px;
+  width: 300px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.dos {
+  background: yellow;
+  color: black;
+  font-size: 40px;
+  width: 300px;
+  display: inline-block;
+  border: 3px red solid;
+}

@@ -1,0 +1,20 @@
+body {
+  background: beige;
+}
+
+.contenedor {
+  width: 90%;
+  margin: auto;
+}
+
+.caja-uno {
+  background: turquoise;
+  color: black;
+  font-size: 25px;
+}
+
+.caja-dos {
+  background: brown;
+  color: white;
+  font-size: 25px;
+}
