@@ -8,9 +8,6 @@ They are text to navigate to another page or inside the same page or to another 
 
   **Values**
   - `none` = The text has no decoration.
-  - `underline` = The text is underlined.
-  - `overline` = The text is overlined.
-  - `line-through` = The text has a line through it.
 
 ## Pseudo-Classes
 
