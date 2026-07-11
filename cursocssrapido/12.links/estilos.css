@@ -1,0 +1,17 @@
+body {
+  background: beige;
+}
+
+a {
+  font-size: 55px;
+  text-decoration: none;
+  background-color: blue;
+}
+
+a:link {
+  color: rgb(207, 241, 248);
+}
+
+a:visited {
+  color: rgb(234, 174, 174);
+}
