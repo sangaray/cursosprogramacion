@@ -4,9 +4,9 @@ In this repository you will find my code practice for the HTML course of Yacklyo
 
 ## Chapters
 
-1. [Modern HTML (2026)](https://github.com/sangaray/cursosprogramacion/tree/main/htmlmoderno)
-2. [Fast HTML (2022)](https://github.com/sangaray/cursosprogramacion/tree/main/htmlrapido)
-3. [Programing Introduction](https://github.com/sangaray/cursosprogramacion/tree/main/programmingintro)
+1. [CSS](https://github.com/sangaray/cursosprogramacion/tree/main/CSS)
+2. [HTML](https://github.com/sangaray/cursosprogramacion/tree/main/HTML)
+3. [Programming](https://github.com/sangaray/cursosprogramacion/tree/main/Programming)
 
 ## Tricks
 
