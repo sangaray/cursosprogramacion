@@ -19,7 +19,7 @@ p {
 }
 
 .bloque {
-  float: left;
+  float: right;
   width: 30.5%;
   border: 1px red solid;
   padding: 8px;
