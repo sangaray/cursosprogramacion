@@ -1,0 +1,43 @@
+body {
+  background: beige;
+}
+
+/* ul {
+  font-size: 60px;
+  margin: 40px;
+  list-style-image: url("home4.png");
+}
+
+ol {
+  font-size: 60px;
+  margin: 70px;
+  list-style: lower-latin;
+} */
+
+/* Menú */
+.menu {
+  list-style: none;
+  background: brown;
+  font-size: 60px;
+  width: 350px;
+  margin: 50px;
+  padding: 0;
+  text-align: center;
+}
+
+.menu li {
+  border-bottom: 3px solid white;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: Helvetica;
+  display: block;
+  padding: 14px;
+}
+
+.menu li a:hover {
+  background: tomato;
+  color: black;
+}
