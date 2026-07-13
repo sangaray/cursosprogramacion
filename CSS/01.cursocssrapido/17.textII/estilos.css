@@ -1,0 +1,32 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); */
+
+@font-face {
+  font-family: Pacifico;
+  src: url("fonts/Pacifico/Pacifico-Regular.ttf");
+}
+
+body {
+  background: beige;
+  font-family: calibri;
+}
+
+h1 {
+  font-size: 120px;
+  margin: 0;
+  color: darkblue;
+  text-align: center;
+  text-shadow: 5px 15px darkgray;
+  font-family: Pacifico;
+}
+
+h2 {
+  font-size: 40px;
+  word-spacing: 20px;
+}
+
+p {
+  font-size: 30px;
+  line-height: 40px;
+  text-indent: 20px;
+  text-decoration: none;
+}
