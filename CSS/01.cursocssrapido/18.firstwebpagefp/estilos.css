@@ -1,0 +1,104 @@
+body {
+  background-color: beige;
+  color: brown;
+  font-size: 13px;
+  font-family: Calibri;
+  margin: 0;
+}
+
+#cabecera {
+  background: darkblue;
+}
+
+#cabecera h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+nav {
+  background: darkturquoise;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 28px;
+  padding: 8px 10px;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background-color: cyan;
+  color: black;
+}
+
+#cont-img {
+  background-image: url(images/pexels-frank-cone-140140-23938388.jpg);
+  height: 280px;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+#cont-img .imagen h1 {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 25px;
+  margin: 0;
+}
+
+.contenedor {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#cont-principal {
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+  padding: 0 30px;
+}
+
+#barra-lateral {
+  float: right;
+  width: 30%;
+  background-color: deepskyblue;
+  color: white;
+  box-sizing: border-box;
+}
+
+#part-inf {
+  background-color: darkblue;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  padding: 5px;
+  margin-top: 40px;
+}
+
+@media (max-width: 650px) {
+  #cont-principal {
+    width: 100%;
+    float: none;
+  }
+
+  #barra-lateral {
+    width: 100%;
+    float: none;
+  }
+}
