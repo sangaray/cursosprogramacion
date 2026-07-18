@@ -1,5 +1,7 @@
 # Forms First Part
 
+This section has some bad practices to take in account amd some major errors.
+
 ## Form
 
 It is a way for the user to interact with the web server and send data.
