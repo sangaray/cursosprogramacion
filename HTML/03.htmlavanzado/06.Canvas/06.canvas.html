@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso HTML</title>
+</head>
+
+<body>
+  <canvas id="dibujo" width="400" height="400" style="border: 2px solid green;">
+
+  </canvas>
+  <canvas id="dibujo1" width="350" height="200" style="border: 3px solid green;">
+
+  </canvas>
+
+  <script>
+    var a = document.getElementById("dibujo");
+    var ctx = a.getContext("2d");
+    ctx.font = "40px Arial"
+    ctx.fillStyle = "blue";
+    ctx.fillText("Curso HTML", 43, 180);
+
+    var b = document.getElementById("dibujo1");
+    var ctx1 = b.getContext("2d");
+    ctx1.beginPath();
+    ctx1.arc(150, 100, 80, 0, 2 * Math.PI);
+    ctx1.fillStyle = "red";
+    ctx1.stroke();
+    ctx1.fillStyle = "blue";
+    ctx1.fill();
+
+  </script>
+  <h1>Curso HTML</h1>
+</body>
+
+</html>
