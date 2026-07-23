@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso HTML</title>
+</head>
+
+<body>
+  <h1>Video</h1>
+
+  <!-- Video player standard -->
+  <h2>Video Player Estandar</h2>
+  <video width="360" height="240" autoplay controls poster="video/fondo.png">
+    <source src="video/ejemplo.mp4">
+  </video>
+
+  <br><br>
+
+  <!-- Video player customized -->
+  <h2>Video Player Perdonalizado</h2>
+  <div style="text-align: center;">
+    <button onclick="playpause()">Play/Pause</button>
+    <button onclick="completa()">Completa</button>
+    <button onclick="normal()">Normal</button>
+    <br><br>
+    <video id="ejemplo" width="360">
+      <source src="video/ejemplo.mp4">
+    </video>
+  </div>
+
+  <script>
+    var mi_video = document.getElementById("ejemplo");
+
+    function playpause() {
+      if (mi_video.paused) {
+        mi_video.play();
+      } else {
+        mi_video.pause();
+      }
+    }
+
+    function completa() {
+      mi_video.width = 720;
+    }
+
+    function normal() {
+      mi_video.width = 360;
+    }
+
+  </script>
+
+  <iframe src="https://www.youtube.com/embed/tk-74lmkacs?controls=0" frameborder="0"></iframe>
+</body>
+
+</html>
