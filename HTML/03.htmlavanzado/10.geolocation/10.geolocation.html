@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso HTML</title>
+
+  <link rel="stylesheet" href="geo/geoestilos.css">
+</head>
+
+<body>
+  <h1>Mi Ubicacion</h1>
+  <!-- Geolocalización con JavaScript -->
+  <button onclick="getLocation()">Activar</button>
+  <p id="geo"></p>
+  <script>
+    var x = document.getElementById("geo");
+    function getLocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition)
+      } else {
+        x.innerHTML = "La geolocalización no es compatible con tu navegador";
+      }
+    }
+
+    function showPosition(position) {
+      x.innerHTML = "Latitud: " + position.coords.latitude + "<br>Longitud: " + position.coords.longitude
+    }
+
+  </script>
+
+  <!-- Geolocalización con API de Google -->
+  <div id="mapa"></div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgZZK8umUqJn8d5CoIZqWPJ_qtMfqD9q0&callback=initMap"
+    async defer></script>
+
+  <script>
+    var mapa;
+    function initMap() {
+      mapa = new google.maps.Map(document.getElementById('mapa'), {
+        center: { lat: 53.430938, lng: -2.960841 },
+        zoom: 18
+      });
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+API 
+ https://developers.google.com/maps/documentation/javascript/get-api-key
+
+
+
+
+
+https://maps.googleapis.com/maps/api/js?key=AIzaSyBgZZK8umUqJn8d5CoIZqWPJ_qtMfqD9q0&callback=initMap
+
+
+------------------------------------
+lat: 53.430938, lng: -2.960841
+
+
