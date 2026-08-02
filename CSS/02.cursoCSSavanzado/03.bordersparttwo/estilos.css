@@ -1,0 +1,25 @@
+#b {
+  border: 20px solid greenyellow;
+  width: 250px;
+  height: 200px;
+  font-size: 22px;
+  padding: 20px;
+  background-color: darkred;
+  color: white;
+  border-image-source: url(images/marco.png);
+  border-image-slice: 25%;
+  border-image-repeat: repeat round;
+  border-image-width: 30px;
+  border-image-outset: 10px;
+}
+
+#b1 {
+  border: 20px solid greenyellow;
+  width: 250px;
+  height: 200px;
+  font-size: 22px;
+  padding: 20px;
+  background-color: darkred;
+  color: white;
+  border-image: url(images/marco.png) 120 stretch;
+}
