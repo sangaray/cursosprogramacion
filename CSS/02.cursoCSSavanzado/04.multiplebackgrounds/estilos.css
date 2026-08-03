@@ -1,0 +1,58 @@
+#fondo {
+  padding: 25px;
+  border: 12px solid red;
+  width: 340px;
+  height: 280px;
+  background: url(images/gato.png) top 40px left 40px / 80px no-repeat;
+}
+
+#fondo1 {
+  padding: 25px;
+  border: 12px solid red;
+  width: 340px;
+  height: 280px;
+  background:
+    url(images/balon.jpg) top / 100px no-repeat,
+    url(images/balon2.jpg) bottom / 100px no-repeat;
+}
+
+#fondo2 {
+  padding: 25px;
+  border: 12px solid red;
+  width: 340px;
+  height: 280px;
+  background: url(images/balon2.jpg);
+  background-size: contain;
+}
+
+#fondo3 {
+  padding: 25px;
+  border: 12px solid red;
+  width: 340px;
+  height: 280px;
+  background:
+    url(images/plato.png) center no-repeat,
+    url(images/mesa.jpg) center / cover no-repeat;
+}
+
+#fondo4 {
+  padding: 25px;
+  border: 12px solid red;
+  width: 340px;
+  height: 280px;
+  font-size: 24px;
+  background-color: mediumseagreen;
+  background-clip: content-box;
+}
+
+#fondo5 {
+  padding: 25px;
+  border: 12px solid red;
+  width: 340px;
+  height: 280px;
+  font-size: 24px;
+  color: yellowgreen;
+  background-color: mediumseagreen;
+  background: url(images/gato.png) center / cover no-repeat;
+  background-clip: content-box;
+}
