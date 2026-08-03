@@ -1,0 +1,47 @@
+#degradados {
+  border: 2px solid black;
+  width: 480px;
+  height: 480px;
+  background: linear-gradient(red, yellow, green 80%);
+}
+
+#degradados1 {
+  border: 2px solid black;
+  width: 480px;
+  height: 480px;
+  background: repeating-linear-gradient(red, yellow, green 10%);
+}
+
+#degradados2 {
+  border: 2px solid black;
+  width: 480px;
+  height: 480px;
+  background: radial-gradient(blue 50%, cyan);
+}
+
+#degradados3 {
+  border: 2px solid black;
+  width: 480px;
+  height: 480px;
+  background: radial-gradient(circle at top right, yellow, orange);
+}
+
+#degradados4 {
+  border: 2px solid black;
+  width: 480px;
+  height: 480px;
+  background: repeating-radial-gradient(circle, blue, cyan 15%);
+}
+
+#degradados5 {
+  border: 2px solid black;
+  width: 480px;
+  height: 480px;
+  background: repeating-linear-gradient(
+    45deg,
+    yellow,
+    #d8b32a 10px,
+    red 10px,
+    #d16df0 20px
+  );
+}
