@@ -1,0 +1,59 @@
+#sombra {
+  font-size: 75px;
+  color: red;
+  text-shadow: #acaaaa 5px -5px;
+}
+
+#sombra1 {
+  font-size: 75px;
+  color: white;
+  text-shadow:
+    1px 1px 5px black,
+    0 0 22px red;
+}
+
+#sombra2 {
+  font-size: 75px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 3px;
+  color: yellow;
+  text-shadow: 3px 3px 1px black;
+}
+
+#sombra3 {
+  background: coral;
+  width: 400px;
+  height: 150px;
+  font-size: 70px;
+  box-shadow: 10px 20px 20px red;
+}
+
+#sombra4 {
+  background: coral;
+  width: 400px;
+  height: 150px;
+  font-size: 70px;
+  box-shadow: 0px 3px 10px 1px black inset;
+}
+
+.tarjeta {
+  width: 250px;
+  text-align: center;
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 0.2),
+    0 6px 20px;
+}
+
+.numero {
+  background-color: darkred;
+  color: white;
+  padding: 10px;
+  font-size: 50px;
+}
+
+.titulo {
+  padding: 5px;
+}
