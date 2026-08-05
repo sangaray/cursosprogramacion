@@ -1,0 +1,36 @@
+body {
+  background-color: bisque;
+}
+
+p {
+  width: 400px;
+  font-size: 40px;
+  border: 3px solid red;
+}
+
+#texto {
+  writing-mode: vertical-lr;
+}
+
+#texto1 {
+  word-wrap: break-word;
+}
+
+#texto2 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#texto3 {
+  width: 200px;
+  border: 3px solid brown;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 20px;
+  font-size: 24px;
+  margin: 0;
+  background-color: white;
+  resize: horizontal;
+}
