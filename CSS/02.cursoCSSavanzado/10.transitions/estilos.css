@@ -1,0 +1,101 @@
+div {
+  width: 150px;
+  height: 150px;
+  background: cornflowerblue;
+  border-radius: 50%;
+  transition: all 1s;
+  margin: 20px;
+}
+
+#transicion {
+  background-color: orange;
+  transition: width 2s;
+}
+
+div:hover {
+  width: 450px;
+}
+
+#transicion:hover {
+  width: 300px;
+  background-color: red;
+}
+
+#transicion1 {
+  transition-timing-function: linear;
+}
+
+#transicion2 {
+  background: orange;
+  border-radius: 0;
+  width: 50px;
+  height: 150px;
+  animation: mover-derecha 2s ease-in;
+  animation-delay: 1000ms;
+}
+
+@keyframes mover-derecha {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}
+
+#transicion3 {
+  background: coral;
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  animation: mover 5s infinite;
+  animation-delay: 1000ms;
+}
+
+@keyframes mover {
+  0% {
+    transform: ttranslateX(0px);
+  }
+
+  100% {
+    transform: translateX(200px);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(120deg, orange 0px, red 100px);
+  }
+}
+
+#transicion4 {
+  background: coral;
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  animation: mover1 5s infinite;
+  animation-delay: 1000ms;
+}
+
+@keyframes mover1 {
+  0% {
+    transform: ttranslateX(0px);
+  }
+
+  25% {
+    transform: translateX(200px);
+    background: linear-gradient(120deg, red 0px, darkred 100px);
+  }
+
+  50% {
+    transform: translateY(200px) translateX(200px);
+    background: linear-gradient(to top, blue 0px, darkblue 100px);
+  }
+
+  75% {
+    transform: translate(0px) translateY(200px);
+    background: linear-gradient(to top, orange 0px, coral 100px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
