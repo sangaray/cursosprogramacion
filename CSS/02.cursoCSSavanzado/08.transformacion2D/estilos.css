@@ -1,0 +1,55 @@
+div {
+  margin: 30px;
+}
+
+#caja {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+  border: 7px solid darkred;
+  transform: translateY(10px);
+}
+
+#caja1 {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+  border: 7px solid darkred;
+  transform: rotate(10deg);
+}
+
+#caja2 {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+  border: 7px solid darkred;
+  transform: skewX(10deg);
+}
+
+#caja3 {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+  border: 7px solid darkred;
+  transform: scaleX(2);
+}
+
+#caja4 {
+  background: linear-gradient(45deg, red, orange);
+  width: 200px;
+  height: 200px;
+  border: 7px solid darkred;
+  transform: skew(20deg);
+  animation: skew 3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes skew {
+  0% {
+    transform: skew(20deg, 20deg);
+  }
+
+  100% {
+    transform: skew(-20deg, -20deg);
+  }
+}
