@@ -1,0 +1,44 @@
+.cuadro_de_contenido {
+  width: 80%;
+  border: 3px solid red;
+}
+
+img {
+  width: 500px;
+  height: 340px;
+}
+
+.cuadro_de_contenido img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.cuadro_de_contenido1 {
+  width: 80%;
+  border: 3px solid red;
+}
+
+.cuadro_de_contenido1 img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.cuadro_de_contenido2 {
+  width: 80%;
+  border: 3px solid red;
+}
+
+.cuadro_de_contenido2 img {
+  width: 100%;
+  object-fit: none;
+}
+
+.cuadro_de_contenido3 {
+  width: 80%;
+  border: 3px solid red;
+}
+
+.cuadro_de_contenido3 img {
+  width: 100%;
+  object-fit: fill;
+}
