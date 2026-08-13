@@ -1,4 +1,4 @@
-# Variables
+# Variables o Custom Properties
 
 It is a name given to a specific action. That helps to asign properties more easily.
 
@@ -37,3 +37,29 @@ div {
 }
 }
 ```
+
+## More About Custom Properties
+
+[Como Usar Las Variables en CSS](https://www.youtube.com/watch?v=EsVvrcmOjQw)
+
+**Ejemplo**
+
+```css
+:root {
+  --color: #f3f3f3;
+  --bg-color: #3f3f3f;
+  --font-size: 1.5rem;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--color);
+  font-size: var(--font-size);
+}
+```
+
+[Variables en CSS. ¿Cómo trabajar con ellas?](https://www.youtube.com/watch?v=0oziFMgn6NQ)
+
+- Its function is to avoid to repeat code throughout the document and when need to change the value of a property in the web page repeated in several places you dont have to change it in every one of that places, changing the variable changes the value in all the places.
+
+[Variables CSS NATIVAS: ¿Qué son y cómo funcionan?](https://www.youtube.com/watch?v=1TbS60Fu-_M)
