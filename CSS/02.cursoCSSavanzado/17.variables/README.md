@@ -1,6 +1,6 @@
 # Variables o Custom Properties
 
-It is a name given to a specific action. That helps to asign properties more easily.
+It is a name given to a specific action. That helps to asign properties more easily. Its function is to avoid to repeat code throughout the document and when need to change the value of a property in the web page repeated in several places you dont have to change it in every one of that places, changing the variable changes the value in all the places.
 
 ## Types of variables
 
@@ -57,9 +57,3 @@ body {
   font-size: var(--font-size);
 }
 ```
-
-[Variables en CSS. ¿Cómo trabajar con ellas?](https://www.youtube.com/watch?v=0oziFMgn6NQ)
-
-- Its function is to avoid to repeat code throughout the document and when need to change the value of a property in the web page repeated in several places you dont have to change it in every one of that places, changing the variable changes the value in all the places.
-
-[Variables CSS NATIVAS: ¿Qué son y cómo funcionan?](https://www.youtube.com/watch?v=1TbS60Fu-_M)
