@@ -1,0 +1,67 @@
+p::first-letter {
+  font-weight: bold;
+}
+
+p::first-line {
+  color: red;
+}
+
+p::before {
+  content: "ABC";
+  font-size: 20px;
+  color: blue;
+}
+
+p::after {
+  content: "XYZ";
+  font-size: 20px;
+  color: green;
+}
+
+.click::after {
+  content: "...";
+}
+
+.contenedor {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 200px 0;
+  display: inline-block;
+  position: relative;
+}
+
+h1::before {
+  content: "";
+  width: 30%;
+  min-height: 4px;
+  background: red;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.8s all;
+}
+
+h1::after {
+  content: "";
+  width: 0%;
+  min-height: 4px;
+  background: red;
+  position: absolute;
+  bottom: -8%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.8s all;
+}
+
+h1:hover::after {
+  width: 100%;
+}
