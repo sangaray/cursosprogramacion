@@ -1,0 +1,23 @@
+p span {
+  color: blue;
+}
+
+p > span {
+  color: red;
+}
+
+h1 + h2 {
+  color: green;
+}
+
+h1 ~ p {
+  background-color: orange;
+}
+
+h1[titulo="curso"] {
+  color: blue;
+}
+
+h1[class="titulo"] {
+  color: red;
+}
