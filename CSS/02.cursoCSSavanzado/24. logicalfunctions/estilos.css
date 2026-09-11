@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.uno {
+  width: min(400px, 50vw);
+  height: 400px;
+  background-color: coral;
+}
+
+.dos {
+  width: max(400px, 50vw);
+  height: 400px;
+  background-color: coral;
+}
+
+.tres {
+  width: max(400px, 50vw);
+  height: 400px;
+  background-color: bisque;
+  font-size: clamp(36px, 20px + 3vw, 200px);
+}
