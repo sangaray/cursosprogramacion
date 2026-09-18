@@ -21,7 +21,9 @@ It is to reduce the dependence of javascript for the behaviors.
 
 ## CSS Elements
 
-- Selector
+- Selector: tag name over which we want to apply the style
+- Property: the property of the element that we want to change
+- Value: the value that we want to apply to the property
 
 ```CSS
 h1 {
