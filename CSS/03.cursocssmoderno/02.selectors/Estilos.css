@@ -1,0 +1,33 @@
+*´ {
+  margin: 0;
+  padding: 0;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+p {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.titulo {
+  color: rebeccapurple;
+  text-align: center;
+  background-color: aqua;
+}
+
+#boton_especial {
+  background-color: gold;
+  font-weight: bold;
+}
+
+.boton_lateral {
+  background-color: #eaea9e;
+}
+
+[target="_blank"] {
+  color: red;
+  text-decoration: underline wavy;
+}
