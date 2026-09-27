@@ -1,0 +1,16 @@
+h1,
+h2,
+p {
+  color: blue;
+}
+
+.titulo,
+.subtitulo,
+.texto {
+  background-color: aquamarine;
+}
+
+#menu,
+footer p {
+  color: red;
+}
